@@ -1,0 +1,268 @@
+/*
+Extra custom css added*/
+.error{
+    color: red;
+}
+.btn-teal{
+    background-color: skyblue;
+}
+.marginCss{
+
+	margin-left :0!important;
+	margin-right :0!important;
+}
+.select-side-image{
+    top: 25px;
+}
+.button_color{
+	    background-color: #2196f3;
+    color: white;
+}
+
+.black-text {
+	display: inline-block;
+	color: black
+}
+.red{
+	background-color: #FF5252;
+	cursor: auto;
+}
+.green{
+	background-color: #66BB6A;
+}
+.yellow{
+	background-color: #FFF176;
+}
+.data-calender .day{
+	cursor: auto !important;
+}
+.data-calender .green{
+	cursor: pointer !important;
+}
+.data-calender .yellow{
+	cursor: pointer !important;
+}
+div.zabuto_calendar .table tr td.dow-clickable, div.zabuto_calendar .table tr td.event-clickable {
+     cursor: auto !important;
+ }
+#container {
+    min-width: 500px;
+    max-width: 1800px;
+    height: 400px;
+    margin: 0 auto
+}
+.thPadding{
+	padding: 12px 10px !important;
+}
+.graphDiv{
+	    height: 695px;
+}
+.graphDiv .tab-content{
+	height: 90%;
+}
+
+.diagnosis-failed{
+	background-color: #F6BABE;
+	text-align: left;
+	padding: 10px 10px;
+	width: 55%;
+}
+.diagnosis-success {
+	background-color: #CEF2AE;
+	text-align: left;
+	padding: 10px 10px;
+	width: 55%;
+}
+.next-left{
+	left: -645px;
+    margin-top: 1%;
+}
+.graph-padding{
+	padding-top: 37px;
+}
+
+.text-area-comment {
+	margin: 0px;
+	height: 84px;
+	width: 100%;
+}
+.width-adjust
+{    width: 316px;}
+.padding-top{
+	margin-top: 1%;
+}
+#constext-menu-div{
+	position: absolute;
+}
+#constext-menu-div ul{
+	    min-width: 180px;
+    padding: 0;
+    color: #333333;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin-bottom: 0;
+}
+#constext-menu-div2{
+	position: absolute;
+}
+#constext-menu-div2 ul{
+	    min-width: 180px;
+    padding: 0;
+    color: #333333;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin-bottom: 0;
+}
+.modal-dialog{
+	            width: 190px;
+
+}
+#constext-menu-div a:hover, #constext-menu-div  li > a:focus {
+    text-decoration: none;
+    color: #333333;
+    background-color: #f5f5f5;
+}
+#constext-menu-div li > a {
+    padding: 8px 15px;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#constext-menu-div  li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.5384616;
+    color: #333333;
+    white-space: nowrap;
+}
+#constext-menu-div i{
+	padding-right: 10px;
+}
+
+#constext-menu-div2 a:hover, #constext-menu-div2  li > a:focus {
+    text-decoration: none;
+    color: #333333;
+    background-color: #f5f5f5;
+}
+#constext-menu-div2 li > a {
+    padding: 8px 15px;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#constext-menu-div2  li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.5384616;
+    color: #333333;
+    white-space: nowrap;
+}
+#constext-menu-div2 i{
+	padding-right: 10px;
+}
+.modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.48) !important;
+}
+.paddingPopulation{
+	padding: 0 10%;
+}
+.cycleDiv{
+	margin-bottom: 10px;
+}
+.multi-select-full{
+	margin-bottom: 12px;
+}
+#add-comment{
+	margin-left: 20px;
+}
+#success-pop .modal-dialog{
+	width:400px;
+}
+#success-pop .modal-header{
+	border-bottom:none !important;
+	padding: 0 0 0 0px;
+}
+
+.modal-header .close{
+	position: inherit !important;
+	margin-top: 6px !important;
+}
+
+#success-pop  .modal-body{
+	padding: 0 0 0 0px;
+}
+.subjectIconList{
+	padding: 9px;
+    display: inline-block;
+}
+.lockBtn{
+	float: left;
+	margin-right: 20px;
+}
+.day-btn{
+	border:1px solid rgba(0, 0, 0, 0.38);
+	cursor: auto !important;
+	margin-right: 5px;
+}
+.btn-labeled > b{
+	padding: 11px !important;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+#average{
+	margin: 10px;
+}
+.modal-content.options-modal::after {
+  	content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 20%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+#warning-stage2{
+        color: rgb(249, 0, 0);
+    font-weight: bold;
+}
+#warning-stage2 .fa-warning{
+   font-size:24px;
+}
+.daterangepicker.opensright:before {
+    position: absolute;
+    /*top: -7px;*/
+    left: 9px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+.daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar {
+    float: right;
+    margin: 4px;
+}
+.commentDiv{
+    padding-top: 15px;
+}
+#commentTable td{
+    font-size: 14px !important;
+}
+#comment-table td,#comment-table th{
+    padding: 6px 20px !important;
+}
+.dateli{
+    height: 46px;
+}
+.dateli p{
+    padding: 14px 32px;
+}
