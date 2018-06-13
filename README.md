@@ -1,2 +1,16 @@
-# test
-test laravel
+# Users
+set .env
+
+host=http://localhost/test/public/
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=465
+MAIL_USERNAME=***
+MAIL_PASSWORD=****
+MAIL_ENCRYPTION=tls
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=test
+DB_USERNAME=
+DB_PASSWORD=
